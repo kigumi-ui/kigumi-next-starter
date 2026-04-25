@@ -50,3 +50,9 @@ src/global.d.ts
 
 # kigumi e2e testbed fixtures (written by tests/e2e/nextjs-starter.test.ts)
 app/__kigumi_test__/
+
+# Kigumi cross-framework staging (transient cache for agent conversion)
+.kigumi/foreign/
+
+# Kigumi registry cache (transient)
+.kigumi/cache/

@@ -1,0 +1,43 @@
+{
+  "framework": "react",
+  "typescript": true,
+  "componentsDir": "components/ui",
+  "utilsDir": "src/lib",
+  "stylesDir": "styles",
+  "theme": {
+    "selected": "default",
+    "palette": "default",
+    "brandColor": "blue"
+  },
+  "aliases": {
+    "@/components": "./src/components",
+    "@/lib": "./src/lib",
+    "@/styles": "./src/styles"
+  },
+  "webAwesome": {
+    "version": "^3.5.0"
+  },
+  "installedComponents": {
+    "Button": {
+      "source": "builtin",
+      "installedAt": "2026-04-22T20:28:46.578Z",
+      "kigumiVersion": "0.19.2"
+    },
+    "Card": {
+      "source": "builtin",
+      "installedAt": "2026-04-22T20:28:46.589Z",
+      "kigumiVersion": "0.19.2"
+    },
+    "Icon": {
+      "source": "builtin",
+      "installedAt": "2026-04-22T20:28:46.589Z",
+      "kigumiVersion": "0.19.2"
+    },
+    "Input": {
+      "source": "builtin",
+      "installedAt": "2026-04-22T20:28:46.589Z",
+      "kigumiVersion": "0.19.2"
+    }
+  },
+  "kigumiVersion": "0.19.2"
+}
