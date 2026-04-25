@@ -1,7 +1,8 @@
 'use client';
 
-import { forwardRef, useRef, useImperativeHandle, useEffect, type HTMLAttributes } from 'react';
+import { forwardRef, useRef, useCallback, useImperativeHandle, useEffect, type HTMLAttributes } from 'react';
 import clsx from 'clsx';
+import type WaCard from '@awesome.me/webawesome-pro/dist/components/card/card.js';
 import './Card.css';
 
 let loadPromise: Promise<unknown> | null = null;
@@ -42,13 +43,15 @@ export interface CardProps extends Omit<HTMLAttributes<HTMLElement>, 'dir'> {
 
 export interface CardRef {
   /** Reference to the underlying HTML element */
-  element: HTMLElement | null;
+  element: WaCard | null;
 }
 
 export const Card = forwardRef<CardRef, CardProps>(
   ({ children, className, ...props }, ref) => {
-    const cardRef = useRef<HTMLElement & {
-    }>(null);
+    const cardRef = useRef<WaCard | null>(null);
+    const setCardRef = useCallback((el: WaCard | null) => {
+      cardRef.current = el;
+    }, []);
 
     useImperativeHandle(
       ref,
@@ -66,10 +69,9 @@ export const Card = forwardRef<CardRef, CardProps>(
 
     return (
       <wa-card
-        ref={cardRef}
+        ref={setCardRef}
         class={clsx('Card', className)}
-        suppressHydrationWarning
-        {...(props as Record<string, unknown>)}
+        {...({ suppressHydrationWarning: true, ...props } as Record<string, unknown>)}
       >
         {children}
       </wa-card>

@@ -2,7 +2,7 @@
   "framework": "react",
   "typescript": true,
   "componentsDir": "components/ui",
-  "utilsDir": "src/lib",
+  "utilsDir": "lib",
   "stylesDir": "styles",
   "theme": {
     "selected": "default",
@@ -10,9 +10,9 @@
     "brandColor": "blue"
   },
   "aliases": {
-    "@/components": "./src/components",
-    "@/lib": "./src/lib",
-    "@/styles": "./src/styles"
+    "@/components": "./components",
+    "@/lib": "./lib",
+    "@/styles": "./styles"
   },
   "webAwesome": {
     "version": "^3.5.0"
@@ -20,22 +20,22 @@
   "installedComponents": {
     "Button": {
       "source": "builtin",
-      "installedAt": "2026-04-22T20:28:46.578Z",
+      "installedAt": "2026-04-25T21:11:47.078Z",
       "kigumiVersion": "0.19.2"
     },
     "Card": {
       "source": "builtin",
-      "installedAt": "2026-04-22T20:28:46.589Z",
+      "installedAt": "2026-04-25T21:11:47.080Z",
       "kigumiVersion": "0.19.2"
     },
     "Icon": {
       "source": "builtin",
-      "installedAt": "2026-04-22T20:28:46.589Z",
+      "installedAt": "2026-04-25T21:11:47.080Z",
       "kigumiVersion": "0.19.2"
     },
     "Input": {
       "source": "builtin",
-      "installedAt": "2026-04-22T20:28:46.589Z",
+      "installedAt": "2026-04-25T21:11:47.080Z",
       "kigumiVersion": "0.19.2"
     }
   },
