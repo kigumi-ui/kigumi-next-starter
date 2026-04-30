@@ -15,10 +15,10 @@
 @layer base, theme;
 
 /* Layer 1: Web Awesome base styles */
-@import '@awesome.me/webawesome-pro/dist/styles/webawesome.css' layer(base);
+@import '@awesome.me/webawesome/dist/styles/webawesome.css' layer(base);
 
 /* Layer 1: Web Awesome theme styles */
-@import '@awesome.me/webawesome-pro/dist/styles/themes/default.css' layer(base);
+@import '@awesome.me/webawesome/dist/styles/themes/default.css' layer(base);
 
 /* Layer 2: Your custom CSS overrides (sibling of layers.css) */
 @import './theme.css' layer(theme);

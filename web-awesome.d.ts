@@ -2,7 +2,7 @@
  * Web Awesome JSX Types
  *
  * This extends React's JSX.IntrinsicElements with Web Awesome custom elements.
- * Uses the official types from the @awesome.me/webawesome-pro package.
+ * Uses the official types from the @awesome.me/webawesome package.
  *
  * IMPORTANT: Uses 'declare global' to extend JSX without overwriting React module.
  *
@@ -12,7 +12,7 @@
 import type {
   CustomElements,
   CustomCssProperties,
-} from '@awesome.me/webawesome-pro/dist/custom-elements-jsx.d.ts';
+} from '@awesome.me/webawesome/dist/custom-elements-jsx.d.ts';
 
 declare global {
   namespace JSX {

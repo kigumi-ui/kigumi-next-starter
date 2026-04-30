@@ -2,12 +2,12 @@
 
 import { forwardRef, useRef, useCallback, useImperativeHandle, useEffect, type HTMLAttributes } from 'react';
 import clsx from 'clsx';
-import type WaButton from '@awesome.me/webawesome-pro/dist/components/button/button.js';
+import type WaButton from '@awesome.me/webawesome/dist/components/button/button.js';
 import './Button.css';
 
 let loadPromise: Promise<unknown> | null = null;
 function ensureLoaded() {
-  return (loadPromise ??= import('@awesome.me/webawesome-pro/dist/components/button/button.js'));
+  return (loadPromise ??= import('@awesome.me/webawesome/dist/components/button/button.js'));
 }
 
 /**

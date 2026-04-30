@@ -5,10 +5,11 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+    "typecheck": "tsc --noEmit",
     "start": "next start"
   },
   "dependencies": {
-    "@awesome.me/webawesome-pro": "^3.5.0",
+    "@awesome.me/webawesome": "^3.5.0",
     "clsx": "^2.1.1",
     "next": "16.2.4",
     "react": "19.2.4",

@@ -2,12 +2,12 @@
 
 import { forwardRef, useRef, useCallback, useImperativeHandle, useEffect, type HTMLAttributes } from 'react';
 import clsx from 'clsx';
-import type WaInput from '@awesome.me/webawesome-pro/dist/components/input/input.js';
+import type WaInput from '@awesome.me/webawesome/dist/components/input/input.js';
 import './Input.css';
 
 let loadPromise: Promise<unknown> | null = null;
 function ensureLoaded() {
-  return (loadPromise ??= import('@awesome.me/webawesome-pro/dist/components/input/input.js'));
+  return (loadPromise ??= import('@awesome.me/webawesome/dist/components/input/input.js'));
 }
 
 /**

@@ -2,12 +2,12 @@
 
 import { forwardRef, useRef, useCallback, useImperativeHandle, useEffect, type HTMLAttributes } from 'react';
 import clsx from 'clsx';
-import type WaCard from '@awesome.me/webawesome-pro/dist/components/card/card.js';
+import type WaCard from '@awesome.me/webawesome/dist/components/card/card.js';
 import './Card.css';
 
 let loadPromise: Promise<unknown> | null = null;
 function ensureLoaded() {
-  return (loadPromise ??= import('@awesome.me/webawesome-pro/dist/components/card/card.js'));
+  return (loadPromise ??= import('@awesome.me/webawesome/dist/components/card/card.js'));
 }
 
 /**
