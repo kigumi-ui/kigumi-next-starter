@@ -9,7 +9,7 @@ importers:
   .:
     dependencies:
       '@awesome.me/webawesome':
-        specifier: ^3.5.0
+        specifier: 3.6.0
         version: 3.6.0(@floating-ui/utils@0.2.11)(@types/react@19.2.14)
       clsx:
         specifier: ^2.1.1

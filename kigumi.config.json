@@ -15,7 +15,7 @@
     "@/styles": "./styles"
   },
   "webAwesome": {
-    "version": "^3.5.0"
+    "version": "3.6.0"
   },
   "installedComponents": {
     "Button": {
@@ -39,5 +39,5 @@
       "kigumiVersion": "0.19.2"
     }
   },
-  "kigumiVersion": "0.19.2"
+  "kigumiVersion": "0.22.0"
 }
