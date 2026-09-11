@@ -12,7 +12,7 @@ The repo is intentionally minimal: it ships a vanilla `create-next-app` scaffold
 ## Use as a starter
 
 ```bash
-git clone https://github.com/Siregar/kigumi-next-starter.git
+git clone https://github.com/kigumi-ui/kigumi-next-starter.git
 cd kigumi-next-starter
 pnpm install
 pnpm dlx kigumi init
@@ -26,7 +26,7 @@ For a full walkthrough of Kigumi commands, see [kigumi.style](https://kigumi.sty
 
 ## Use as Kigumi CLI E2E testbed
 
-The [`kigumi-cli`](https://github.com/Siregar/kigumi-cli) repo runs end-to-end tests against this starter. The test contract:
+The [`kigumi-cli`](https://github.com/kigumi-ui/kigumi-cli) repo runs end-to-end tests against this starter. The test contract:
 
 - Env var: `KIGUMI_NEXT_STARTER_PATH`, default `../kigumi-next-starter` (sibling directory).
 - Between runs the test performs:
