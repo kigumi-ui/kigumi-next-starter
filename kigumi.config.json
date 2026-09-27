@@ -19,24 +19,24 @@
   },
   "installedComponents": {
     "Button": {
-      "source": "builtin",
       "installedAt": "2026-04-25T21:11:47.078Z",
-      "kigumiVersion": "0.19.2"
+      "source": "builtin",
+      "kigumiVersion": "1.1.0"
     },
     "Card": {
-      "source": "builtin",
       "installedAt": "2026-04-25T21:11:47.080Z",
-      "kigumiVersion": "0.19.2"
+      "source": "builtin",
+      "kigumiVersion": "1.1.0"
     },
     "Icon": {
-      "source": "builtin",
       "installedAt": "2026-04-25T21:11:47.080Z",
-      "kigumiVersion": "0.19.2"
+      "source": "builtin",
+      "kigumiVersion": "1.1.0"
     },
     "Input": {
-      "source": "builtin",
       "installedAt": "2026-04-25T21:11:47.080Z",
-      "kigumiVersion": "0.19.2"
+      "source": "builtin",
+      "kigumiVersion": "1.1.0"
     }
   },
   "kigumiVersion": "1.1.0"
