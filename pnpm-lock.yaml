@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@awesome.me/webawesome':
-        specifier: 3.13.0
-        version: 3.13.0(@floating-ui/utils@0.2.11)(@types/node@20.19.39)(@types/react@19.2.14)
+        specifier: 3.14.0
+        version: 3.14.0(@floating-ui/utils@0.2.11)(@types/node@20.19.39)(@types/react@19.2.14)
       clsx:
         specifier: ^2.1.1
         version: 2.1.1
@@ -39,8 +39,8 @@ importers:
 
 packages:
 
-  '@awesome.me/webawesome@3.13.0':
-    resolution: {integrity: sha512-egDzZAHCMj31xaYW2AFhwxl5XMj4lAFGxh9Q0WMQjRHdC6sy45JofA8ojGl28LuztDhrjfmz6tP5KG4anpjT8w==}
+  '@awesome.me/webawesome@3.14.0':
+    resolution: {integrity: sha512-m5rTGLK/iOvaVFOkYxRjiBOp8lwrBap5tv+zz1gsqLgAxlfwdvElB7BVGjs+Lf9gDps7bWRPTkG0FwZk40mk2A==}
     engines: {node: '>=14.17.0'}
 
   '@ctrl/tinycolor@4.1.0':
@@ -217,9 +217,6 @@ packages:
 
   '@lit-labs/ssr-client@1.1.8':
     resolution: {integrity: sha512-PjGh81oKsoI64m3IDjTqqjhC7dr2uC/o0jrllUb5gRAyp/RlAHxapgJrjq9kWz97faCHLQ8jUlTi6tGm+8fgyA==}
-
-  '@lit-labs/ssr-dom-shim@1.5.1':
-    resolution: {integrity: sha512-Aou5UdlSpr5whQe8AA/bZG0jMj96CoJIWbGfZ91qieWu5AWUMKw8VR/pAkQkJYvBNhmCcWnZlyyk5oze8JIqYA==}
 
   '@lit-labs/ssr-dom-shim@1.6.0':
     resolution: {integrity: sha512-VHb0ALPMTlgKjM6yIxxoQNnpKyUKLD04VzeQdsiXkMqkvYlAHxq9glGLmgbb889/1GsohSOAjvQYoiBppXFqrQ==}
@@ -498,7 +495,7 @@ packages:
 
 snapshots:
 
-  '@awesome.me/webawesome@3.13.0(@floating-ui/utils@0.2.11)(@types/node@20.19.39)(@types/react@19.2.14)':
+  '@awesome.me/webawesome@3.14.0(@floating-ui/utils@0.2.11)(@types/node@20.19.39)(@types/react@19.2.14)':
     dependencies:
       '@ctrl/tinycolor': 4.1.0
       '@floating-ui/dom': 1.7.6
@@ -641,8 +638,6 @@ snapshots:
       lit: 3.3.2
       lit-html: 3.3.2
 
-  '@lit-labs/ssr-dom-shim@1.5.1': {}
-
   '@lit-labs/ssr-dom-shim@1.6.0': {}
 
   '@lit-labs/ssr@4.1.0(@types/node@20.19.39)':
@@ -670,7 +665,7 @@ snapshots:
 
   '@lit/reactive-element@2.1.2':
     dependencies:
-      '@lit-labs/ssr-dom-shim': 1.5.1
+      '@lit-labs/ssr-dom-shim': 1.6.0
 
   '@next/env@16.2.4': {}
 
@@ -763,7 +758,7 @@ snapshots:
 
   lit-element@4.2.2:
     dependencies:
-      '@lit-labs/ssr-dom-shim': 1.5.1
+      '@lit-labs/ssr-dom-shim': 1.6.0
       '@lit/reactive-element': 2.1.2
       lit-html: 3.3.2
 
