@@ -56,3 +56,6 @@ app/__kigumi_test__/
 
 # Kigumi registry cache (transient)
 .kigumi/cache/
+
+# Local agent worktrees
+.claude/worktrees/
